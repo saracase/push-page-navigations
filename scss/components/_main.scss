@@ -19,7 +19,7 @@ html {
 
 
 body{
-  font-family: sans-serif;
+  font-family: 'Oswald', sans-serif;
   @include zero;
   // Hides close button if there is no js
   &.noscript .close-btn,
@@ -32,7 +32,7 @@ header {
   padding: 0 1em;
   position: relative;
   color: $fuchsia;
-  font-family: serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .toggle-btn{
@@ -57,7 +57,7 @@ header {
         border-bottom: 5px solid $aqua;
         text-decoration: none;
         color: $fuchsia;
-        font-family: sans-serif;
+        font-family: 'Oswald', sans-serif;
     }
     } //li
     
@@ -104,7 +104,7 @@ header {
             height: 100%;
             position: relative;
             transform: translateX(0);
-            transition: all 300ms ease-in-out;
+            transition: all 400ms ease-in-out;
         } //.sliding-canvas
         &[data-state="slide-open"] .sliding-canvas{
             transform: translateX(-100%);
